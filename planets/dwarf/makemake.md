@@ -1,4 +1,0 @@
----
-title: Makemake
-type: dwarf
----
