@@ -1,2 +1,2 @@
-# planets-blog
+# my-blog
 
