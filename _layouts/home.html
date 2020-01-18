@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<h2>Most Recent Post</h2>
+<ul class="my-posts">
+    {% for post in site.posts limit:1 %}
+        <div class="older-post">
+            <a class="post-title"href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <a href="{{ post.url | relative_url }}" class="post-link">READ MORE</a>
+        </div>
+    {% endfor %}
+</ul>
+
+<section class="older-posts">
+    <h2>Older Posts</h2>
+    {% for post in site.posts limit:3 offset:1 %}
+        <div class="older-post">
+            <a class="post-title"href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <a href="{{ post.url | relative_url }}" class="post-link">READ MORE</a>
+        </div>
+    {% endfor %}
+</section>

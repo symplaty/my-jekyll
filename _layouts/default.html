@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planets of the Universe</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+</head>
+<body>
+    <div class="title-area">
+        <a href="{{ "/" | relative_url}}">
+            <img src={{ "/assets/images/logo.png" | relative_url }} class="logo" alt="logo">
+        </a>
+        <h1 class="title">{{ page.title }}</h1>
+        <p class="sub-title">{{ page.description }}</p>
+
+    </div>
+    {{ content }}
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. &copy; 2020 </p>
+    </footer>
+</body>
+</html>
