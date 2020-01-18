@@ -1,4 +1,2 @@
-# my-jekyll
+# planets-blog
 
-- my-jekyll
-- update
