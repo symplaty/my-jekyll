@@ -7,7 +7,7 @@ layout: default
 <h2>Type of Planets</h2>
 <ol>
     {% for type in site.data.planet-types %}
-    <li><a href="{{ site.baseurl }}/{{type.folder}}/">{{type.title}}</a></li>
+    <li><a href="{{ site.baseurl }}/planets/{{type.folder}}/">{{type.title}}</a></li>
     {{type.content | markdownify}}
     {% endfor %}
 </ol>
