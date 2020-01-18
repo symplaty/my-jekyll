@@ -1,2 +1,2 @@
-# All Jekyll Blogs Here
-- planets-blog
+# planets-blog
+

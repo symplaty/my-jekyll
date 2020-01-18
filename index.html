@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1>Planets of the Universe</h1>
+
+<h2>Type of Planets</h2>
+<ol>
+    {% for type in site.data.planet-types %}
+    <li><a href="{{site.baseurl}}/planets/{{type.folder}}/">{{type.title}}</a></li>
+    {{type.content | markdownify}}
+    {% endfor %}
+</ol>
+
+<h2>Recently Discovered</h2>
+<ul>
+    {% for post in site.categories.recently-discovered limit:1 %}
+    <li>
+        <a href="">{{post.title}}</a>
+        <p>{{post.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
