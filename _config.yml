@@ -1,4 +1,4 @@
 markdown: kramdown
-baseurl: /my-jekyll/planets-blog
+baseurl: /my-jekyll
 exclude: ["README.md"]
 permalink: pretty
