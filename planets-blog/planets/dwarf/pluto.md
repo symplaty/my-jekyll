@@ -1,0 +1,4 @@
+---
+title: Pluto
+type: dwarf
+---

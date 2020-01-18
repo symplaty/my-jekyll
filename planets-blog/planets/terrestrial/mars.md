@@ -1,0 +1,4 @@
+---
+title: Mars
+type: terrestrial
+---

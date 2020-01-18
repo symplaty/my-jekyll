@@ -1,0 +1,11 @@
+- title: Dwarf
+  folder: dwarf
+  content: "A **dwarf plant** is a planetary-mass object that is neither a planet..."
+
+- title: Terrestrial
+  folder: terrestrial
+  content: "A **terrestrial planet**, **telluric planet** or **rocky planet** is..."
+
+- title: Gas Giant
+  folder: gas-giant
+  content: "A **gas giant** is a large planet that is not primary composed of..."
