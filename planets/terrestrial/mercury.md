@@ -1,4 +1,0 @@
----
-title: Mercury
-type: terrestrial
----
