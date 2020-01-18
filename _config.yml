@@ -1,4 +1,0 @@
-markdown: kramdown
-baseurl: /my-jekyll
-exclude: ["README.md"]
-permalink: pretty

@@ -1,4 +1,0 @@
----
-title: Venus
-type: terrestrial
----

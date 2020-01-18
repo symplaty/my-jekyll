@@ -1,4 +1,0 @@
----
-title: Ceres
-type: dwarf
----
